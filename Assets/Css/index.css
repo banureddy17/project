@@ -1218,6 +1218,9 @@ h2 {
     flex-direction: column;
     transition: 1s;
   }
+  .bar {
+    padding-right: 30px;
+  }
   #check {
     display: none;
   }
@@ -1231,6 +1234,7 @@ h2 {
     font-size: 30px;
     gap: 20px;
   }
+
   .main {
     position: relative;
     width: 100%;
