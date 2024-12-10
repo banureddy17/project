@@ -2802,7 +2802,7 @@ h2 {
     width: 100%;
     height: 100%;
     /* background-color: #832729; */
-    background-image: url(./project/Assets/Images/chain.jpg);
+    background-image: url(project/Assets/Images/chain.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
