@@ -44,6 +44,18 @@ body {
 #check {
   display: none;
 }
+.navbar ul {
+  width: 40%;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.navbar ul li {
+  display: flex;
+  align-content: center;
+}
 .main {
   position: relative;
 }
@@ -84,18 +96,7 @@ body {
 .main .content img {
   object-fit: contain;
 }
-.navbar ul {
-  width: 40%;
-  /* background-color: aqua; */
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  list-style-type: none;
-}
-.navbar ul li {
-  display: flex;
-  align-content: center;
-}
+
 .icons {
   /* background-color: aqua; */
   width: 100%;
@@ -327,10 +328,12 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-color: aqua; */
+  padding: 20px;
 }
 .chain {
-  width: 90%;
-  height: 90%;
+  width: 80%;
+  height: 80%;
   background-color: #832729;
   background-image: url(/project/Assets/Images/chain.jpg);
   background-position: center;
@@ -2793,6 +2796,7 @@ h2 {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    /* background-color: aqua; */
   }
   .chain {
     width: 100%;
